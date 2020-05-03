@@ -19,15 +19,15 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "COLONG...",
+    "COLONG YA KK :')...",
     "MANG NGAPASI GABOLEH?",
-    "AUTO COLONG",
-    "MAYAN ASUPAN STIKER😛",
+    "AUTO COLONG MMPS",
+    "MAYAN STIKER ASW😛",
    
 ]
 
 
-@register(outgoing=True, pattern="^.curi")
+@register(outgoing=True, pattern="^.curry")
 async def kang(args):
     """ For .kang command, kangs stickers or creates new ones. """
     user = await bot.get_me()
