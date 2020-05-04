@@ -19,10 +19,10 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "COLONG YA KK :')...",
-    "MANG NGAPASI GABOLEH?",
-    "AUTO COLONG MMPS",
-    "MAYAN STIKER ASW😛",
+    "Stickernya Aku Colong Ya Kk...",
+    "Gaseneng Stickernya Dicolong? Gelud :')",
+    "Aing Cokot Nya Stikerna :'v",
+    "Punten, Cuman Mau Ambil Stiker:'v",
    
 ]
 
