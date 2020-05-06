@@ -73,10 +73,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**Tinggal Bntr Jon!**\
+        await afk_e.edit(f"**Go For A Sec!**\
         \nReason: `{string}`")
     else:
-        await afk_e.edit("**Tinggal Bntr Jon!**")
+        await afk_e.edit("**Go For A Sec!**")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went Away from Keyboard!")
     ISAFK = True
@@ -99,7 +99,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.edit("**Sorry Jon Lama!**")
+        msg = await notafk.edit("**I'm Back Bitch!**")
         time.sleep(3)
         await msg.delete()
         if BOTLOG:
